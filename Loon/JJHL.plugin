@@ -1,0 +1,9 @@
+#!name=极简汇率
+#!desc=解锁会员
+#!icon=https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/ba/7d/43ba7dfd-d102-291b-8b3f-f3768a0638ba/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/1024x1024bb.jpg
+
+[Script]
+http-response ^https?:\/\/explorer.tratao.com\/api\/client\/xtool\/vip script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/jjhl.js, requires-body=true, timeout=60, tag=JJHL
+
+[MITM]
+hostname = explorer.tratao.com
